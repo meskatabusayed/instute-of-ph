@@ -1,0 +1,68 @@
+[
+    {
+      "id": "1",
+      "image": "https://i.ibb.co/jkL07XY/1a.jpg",
+      "card_title": "Microsoft Power BI Certification Training Course",
+      "card_description": "Microsoft is recognized as a leader in the Gartner Magic Quadrant for Analytics and Business Intelligence Platforms for 12 consecutive years",
+      
+      "card_content" :"Institute of PH Power BI certification course is curated by subject matter experts to help you clear the official Microsoft Power BI Data Analyst Exam: PL-300. This course will help you gain expertise in Business Analytics and throughout the training, you will master the concepts such as Power BI Desktop, Architecture, DAX, Service, Mobile Apps, Reports, Q&A, and many more with industry-relevant use cases. This Power BI training ensures that you get hands-on experience in real-time projects. Learn Power BI from 10+ years of experienced industry experts.",
+      "price" : "$1000"
+      
+     
+      
+      
+    },
+    {
+      "id": "2",
+      "image": "https://i.ibb.co/tY7pd7M/2a.jpg",
+      "card_title": "DevOps Certification Training Course",
+      "card_description": "The DevOps market is expected to grow from USD 3.42 Billion in 2018 to USD 10.31 Billion by 2023, at a Compound Annual Growth Rate (CAGR) of 24.7%",
+     
+      "card_content" : "Institute od PH course Preview VideoView Course Preview Video Free Python Scripting, SQL & Linux Course* Institute of PH DevOps training is designed for IT professionals who want to become successful DevOps engineers. In this DevOps certification, you will learn the crucial concepts of DevOps. This certification in DevOps has helped professionals effectively learn DevOps online. Many active DevOps-related job openings exist, and some top companies are looking for certified DevOps professionals. Enroll in our DevOps course to master Git, Jenkins, Docker, Ansible, and more.",
+      "price" : "$2000"
+      
+      
+    },
+    {
+      "id": "3",
+      "image": "https://i.ibb.co/k6P1Lz6/3a.jpg",
+      "card_title": "DevOps Engineer Masters Program",
+      "card_description": "Security Administration, Shell Scripting, Virtualization, User Administration,  Git, Chef & 20 More Skills.",
+      "card_content" :"The DevOps Engineer Course Masters Program is designed to provide you with expertise in DevOps principles such as CI/CD, Continuous Monitoring, and Continuous Delivery. This program equips you with essential tools like Puppet, Nagios, Chef, Docker, Git, and Jenkins. Training includes comprehensive instruction on Linux, Python, Docker, AWS DevOps, and Splunk. The curriculum of the DevOps Engineer certification training course has been meticulously crafted based on extensive research on over 5000 job descriptions worldwide, ensuring that you become a certified DevOps expert. Enroll today to advance your skills and become proficient in the field of DevOps engineering.",
+      "price" : "$3000"
+      
+    },
+    {
+      "id": "4",
+      "image": "https://i.ibb.co/LkyDBqJ/4a.jpg",
+      "card_title": "AWS Certification Training Course for Solutions Architect",
+      "card_description": "AWS certification is rated as one of the most popular and lucrative cloud certifications in IT globally - Global Knowledge Study",
+      
+      "card_content" :"Professionals curate institute of PH AWS Certification as per industry requirements and demands. This AWS Training will help you prepare for the AWS Certified Solutions Architect - Associate exam SAA-C03. With institute of PH live instructor-led sessions, you can effectively architect, monitor, and deploy secure and robust applications using AWS. This AWS solutions architect certification course will help you identify the appropriate Amazon Web Services, including databases, network, storage, cost optimization, compute, and security requirements.",
+      "price" :"$4000"
+     
+    },
+    {
+      "id": "5",
+      "image": "https://i.ibb.co/9NkvpBm/5a.jpg",
+      "card_title": "Data Science and Machine Learning Internship Program",
+      "card_description": "Become a Skilled Data Science Professional in 4 Months and build your very own Netflix like Movie recommender System from Scratch",
+      
+      "card_content" :"Build a Machine Learning Model to identify and recommend the most likely movies/shows the user would watch in a video streaming platform like Netflix to help the customers enjoy their experience of the platform along with increasing customer engagement and time spent on it.",
+      "price" : "$5000"
+
+     
+    },
+    {
+      "id": "6",
+      "image": "https://i.ibb.co/60mbM7d/6a.jpg",
+      "card_title": "ChatGPT-4 Beginners to Advanced Course",
+      "card_description": "The Global Generative AI Market Size accounted for USD 7.9B in 2021 and is projected to occupy a market size of USD 110.8B by 2030 growing at a CAGR of 34.3% from 2022 to 2030",
+      
+      "card_content" :"Institute of PH ChatGPT Course will help you effectively interact with the biggest revelation in the generative AI domain- ChatGPT. You will be able to upgrade your prompt engineering skills, integrate ChatGPT plugins and ChatGPT APIs to enhance your efficiency. Unlock your potential by crafting your very own chatbot, harnessing the knowledge gained from real-life applications and projects covered in this course, and taking a sneak peek into the future with GPT-4 and ChatGPT Plus. Embrace this chance to enhance your skills and distinguish yourself in the ever-evolving digital marketplace!",
+      "price" : "$6000"
+      
+    }
+    
+    
+  ]
