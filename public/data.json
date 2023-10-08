@@ -1,12 +1,12 @@
 [
     {
       "id": "1",
-      "image": "https://i.ibb.co/jkL07XY/1a.jpg",
-      "card_title": "Microsoft Power BI Certification Training Course",
-      "card_description": "Microsoft is recognized as a leader in the Gartner Magic Quadrant for Analytics and Business Intelligence Platforms for 12 consecutive years",
+      "image": "https://i.ibb.co/sHC6Jq1/ab1.jpg",
+      "card_title": "Growth mindset online workshop",
+      "card_description": "A growth mindset is the belief that someone’s intellectual abilities can be developed over time.",
       
-      "card_content" :"Institute of PH Power BI certification course is curated by subject matter experts to help you clear the official Microsoft Power BI Data Analyst Exam: PL-300. This course will help you gain expertise in Business Analytics and throughout the training, you will master the concepts such as Power BI Desktop, Architecture, DAX, Service, Mobile Apps, Reports, Q&A, and many more with industry-relevant use cases. This Power BI training ensures that you get hands-on experience in real-time projects. Learn Power BI from 10+ years of experienced industry experts.",
-      "price" : "$1000"
+      "card_content" :"A growth mindset is the belief that someone’s intellectual abilities can be developed over time. Research shows that holding a growth mindset is related to students’ intellectual achievement and teaching students a growth mindset can enhance their academic achievement. As a result, this topic is currently attracting much attention among researchers, educators and policy makers.",
+      "price" : 10
       
      
       
@@ -14,53 +14,58 @@
     },
     {
       "id": "2",
-      "image": "https://i.ibb.co/tY7pd7M/2a.jpg",
-      "card_title": "DevOps Certification Training Course",
-      "card_description": "The DevOps market is expected to grow from USD 3.42 Billion in 2018 to USD 10.31 Billion by 2023, at a Compound Annual Growth Rate (CAGR) of 24.7%",
+      "image": "https://i.ibb.co/9G0NdFx/m2.png",
+      "card_title": "Education meets the metaverse",
+      "card_description": "JEducation meets the metaverse: The promise and the worry",
      
-      "card_content" : "Institute od PH course Preview VideoView Course Preview Video Free Python Scripting, SQL & Linux Course* Institute of PH DevOps training is designed for IT professionals who want to become successful DevOps engineers. In this DevOps certification, you will learn the crucial concepts of DevOps. This certification in DevOps has helped professionals effectively learn DevOps online. Many active DevOps-related job openings exist, and some top companies are looking for certified DevOps professionals. Enroll in our DevOps course to master Git, Jenkins, Docker, Ansible, and more.",
-      "price" : "$2000"
+      "card_content" : " When education trails technology, the technology rather than educators defines what counts as educational opportunity. This is largely what happened when ‘educational’ apps designed for use on smartphones and tablets meant for adults were introduced to children.",
+      "price" : 20
       
       
     },
     {
       "id": "3",
-      "image": "https://i.ibb.co/k6P1Lz6/3a.jpg",
-      "card_title": "DevOps Engineer Masters Program",
-      "card_description": "Security Administration, Shell Scripting, Virtualization, User Administration,  Git, Chef & 20 More Skills.",
-      "card_content" :"The DevOps Engineer Course Masters Program is designed to provide you with expertise in DevOps principles such as CI/CD, Continuous Monitoring, and Continuous Delivery. This program equips you with essential tools like Puppet, Nagios, Chef, Docker, Git, and Jenkins. Training includes comprehensive instruction on Linux, Python, Docker, AWS DevOps, and Splunk. The curriculum of the DevOps Engineer certification training course has been meticulously crafted based on extensive research on over 5000 job descriptions worldwide, ensuring that you become a certified DevOps expert. Enroll today to advance your skills and become proficient in the field of DevOps engineering.",
-      "price" : "$3000"
+      "image": "https://i.ibb.co/dmvh4Fb/m3.png",
+      "card_title": "Lessons in refugee education",
+      "card_description": "Ukraine and beyond: Lessons in refugee education",
+
+      "card_content" :"Since February 2022, the war in Ukraine has disrupted the education of millions. More than half of Ukrainian children had to flee their homes, and over 1,800 education institutions have been damaged. The next months will determine how many of these children can access education in their host communities across Europe. Globally, nearly half of all refugee children are out of school.",
+      "price" : 30
       
     },
     {
       "id": "4",
-      "image": "https://i.ibb.co/LkyDBqJ/4a.jpg",
-      "card_title": "AWS Certification Training Course for Solutions Architect",
-      "card_description": "AWS certification is rated as one of the most popular and lucrative cloud certifications in IT globally - Global Knowledge Study",
+      "image": "https://i.ibb.co/4jnvq9P/m4.jpg",
+      "card_title": "Creating an equitable future through education",
+      "card_description": "We spoke about keeping marginalized learners in education",
       
-      "card_content" :"Professionals curate institute of PH AWS Certification as per industry requirements and demands. This AWS Training will help you prepare for the AWS Certified Solutions Architect - Associate exam SAA-C03. With institute of PH live instructor-led sessions, you can effectively architect, monitor, and deploy secure and robust applications using AWS. This AWS solutions architect certification course will help you identify the appropriate Amazon Web Services, including databases, network, storage, cost optimization, compute, and security requirements.",
-      "price" :"$4000"
+      "card_content" :"nequality in education didn’t start with the pandemic—but it’s more starkly obvious now than ever before. We’re bringing together education and inclusion experts to explore how to level the playing field for all.",
+      "price" : 40
+      
      
     },
     {
       "id": "5",
-      "image": "https://i.ibb.co/9NkvpBm/5a.jpg",
-      "card_title": "Data Science and Machine Learning Internship Program",
-      "card_description": "Become a Skilled Data Science Professional in 4 Months and build your very own Netflix like Movie recommender System from Scratch",
+      "image": "https://i.ibb.co/y58jd0b/m5.png",
+      "card_title": "Awards Presentation Ceremony",
+      "card_description": "The Awards Presentation Ceremony was held virtually on 7 December.",
       
-      "card_content" :"Build a Machine Learning Model to identify and recommend the most likely movies/shows the user would watch in a video streaming platform like Netflix to help the customers enjoy their experience of the platform along with increasing customer engagement and time spent on it.",
-      "price" : "$5000"
+      "card_content" :"The Awards Presentation Ceremony was held virtually on 7 December. Our three laureates, Professor Carl Wieman, Lucy Lake and Angeline Murimirwa, received the awards from the officiating guest, The Honourable Mrs Carrie Lam Cheng Yuet-ngor, GBM, GBS, Chief Executive of the Hong Kong Special Administrative Region.",
+      "price" : 50
+    
 
      
     },
     {
       "id": "6",
-      "image": "https://i.ibb.co/60mbM7d/6a.jpg",
-      "card_title": "ChatGPT-4 Beginners to Advanced Course",
-      "card_description": "The Global Generative AI Market Size accounted for USD 7.9B in 2021 and is projected to occupy a market size of USD 110.8B by 2030 growing at a CAGR of 34.3% from 2022 to 2030",
+      "image": "https://i.ibb.co/QpNNTyT/m6.jpg",
+      "card_title": "Educating women to advance society",
+      "card_description": "The Yidan Prize Foundation was proud to partner with the J.P. Morgan Private Bank for one of their Philanthropic Insights series on 4 December 2020.",
       
-      "card_content" :"Institute of PH ChatGPT Course will help you effectively interact with the biggest revelation in the generative AI domain- ChatGPT. You will be able to upgrade your prompt engineering skills, integrate ChatGPT plugins and ChatGPT APIs to enhance your efficiency. Unlock your potential by crafting your very own chatbot, harnessing the knowledge gained from real-life applications and projects covered in this course, and taking a sneak peek into the future with GPT-4 and ChatGPT Plus. Embrace this chance to enhance your skills and distinguish yourself in the ever-evolving digital marketplace!",
-      "price" : "$6000"
+      "card_content" :"The Yidan Prize Foundation was proud to partner with the J.P. Morgan Private Bank for one of their Philanthropic Insights series on 4 December 2020. The event featured an online discussion with the Yidan Prize for Education Development Laureates for 2020 from CAMFED (Campaign for Female Education), which supports some of the most excluded girls in sub-Saharan Africa to go to school, learn, thrive, and lead change for their families and communities.",
+      "price" : 60
+
+      
       
     }
     

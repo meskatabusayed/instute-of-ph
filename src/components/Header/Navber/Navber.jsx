@@ -16,12 +16,12 @@ const Navber = () => {
 
       <li>
       <NavLink
-          to="/courses"
+          to="/programme"
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "text-red-700 underline font-bold" : ""
           }
         >
-        Courses
+        Programme
         </NavLink>
       </li>
       <li>

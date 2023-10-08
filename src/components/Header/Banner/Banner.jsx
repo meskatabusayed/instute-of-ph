@@ -5,7 +5,7 @@ const Banner = () => {
         <div
       className="relative h-screen w-full"
       style={{
-        backgroundImage: `url('https://i.ibb.co/m6LvQ14/back.jpg')`,
+        backgroundImage: `url('https://i.ibb.co/nBV0MfN/777.jpg')`,
       }}
     >
       <div className="absolute inset-0 bg-white bg-opacity-50">
