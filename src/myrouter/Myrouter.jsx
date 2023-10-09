@@ -7,6 +7,9 @@ import SignUp from "../pages/SignUp/SignUp";
 import Programme from "../pages/Programme/Programme";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import ProgrammeDetails from "../pages/ProgrammeDetails/ProgrammeDetails";
+import PrivatRoutes from "../routes/PrivatRoutes";
+import Events from "../pages/Events/Events";
+import Gallery from "../pages/Gallery/Gallery";
 
 
 const router = createBrowserRouter([
@@ -34,9 +37,17 @@ const router = createBrowserRouter([
             },
             {
                 path: '/programmesdetails/:id',
-                element: <ProgrammeDetails></ProgrammeDetails>,
+                element: <PrivatRoutes><ProgrammeDetails></ProgrammeDetails></PrivatRoutes> ,
                 loader: () => fetch('/data.json')
             },
+            {
+                path: '/events',
+                element: <PrivatRoutes><Events></Events></PrivatRoutes>
+            },
+            {
+                path: '/gallery',
+                element: <PrivatRoutes><Gallery></Gallery></PrivatRoutes>
+            }
         ]
     
     }

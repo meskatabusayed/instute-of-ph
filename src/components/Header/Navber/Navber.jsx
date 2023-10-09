@@ -1,49 +1,108 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../../Providers/AuthProviders";
 
 const Navber = () => {
+  const { user, logOut } = useContext(AuthContext);
+
+  const handleLogOut = () => {
+    logOut()
+      .then(() => console.log("User Log Out Successfully"))
+      .catch((error) => console.log(error));
+  };
+
   const navLinks = (
     <>
       <li>
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-red-700 underline font-bold" : ""
+            isPending
+              ? "pending"
+              : isActive
+              ? "text-red-700 underline font-bold"
+              : ""
           }
         >
           Home
         </NavLink>
-        </li>
+      </li>
 
       <li>
-      <NavLink
+        <NavLink
           to="/programme"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-red-700 underline font-bold" : ""
+            isPending
+              ? "pending"
+              : isActive
+              ? "text-red-700 underline font-bold"
+              : ""
           }
         >
-        Programme
+          Programme
         </NavLink>
       </li>
       <li>
-      <NavLink
+        <NavLink
           to="/login"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-red-900 underline font-bold" : ""
+            isPending
+              ? "pending"
+              : isActive
+              ? "text-red-900 underline font-bold"
+              : ""
           }
         >
           Log In
         </NavLink>
       </li>
       <li>
-      <NavLink
+        <NavLink
           to="/signup"
           className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-red-700 underline font-bold" : ""
+            isPending
+              ? "pending"
+              : isActive
+              ? "text-red-700 underline font-bold"
+              : ""
           }
         >
           Sign Up
         </NavLink>
       </li>
+      {user && (
+        <>
+          <li>
+            <NavLink
+              to="/events"
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "text-red-700 underline font-bold"
+                  : ""
+              }
+            >
+              Events
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/gallery"
+              className={({ isActive, isPending }) =>
+                isPending
+                  ? "pending"
+                  : isActive
+                  ? "text-red-700 underline font-bold"
+                  : ""
+              }
+            >
+              Gallery
+            </NavLink>
+          </li>
+        </>
+      )}
     </>
   );
 
@@ -80,7 +139,23 @@ const Navber = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        {user ? (
+          <>
+            <div className="avatar mr-2">
+              <div className="w-24 rounded">
+                <img src={user.photoURL} />
+              </div>
+            </div>
+            <span>{user.displayName}</span>
+            <a onClick={handleLogOut} className="btn ml-3">
+              Sign Out
+            </a>
+          </>
+        ) : (
+          <Link to="/login">
+            <button className="btn ml-3">Login</button>
+          </Link>
+        )}
       </div>
     </div>
   );
