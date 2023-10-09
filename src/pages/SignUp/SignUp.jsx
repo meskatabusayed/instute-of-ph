@@ -1,12 +1,14 @@
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProviders";
 import { useContext, useState } from "react";
+import swal from "sweetalert";
 
 const SignUp = () => {
   const { createUser } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const [signUpError, setSignUpError] = useState(" ");
+  const [success , setSuccess] = useState('');
 
   const handleSignup = (e) => {
     e.preventDefault();
@@ -23,7 +25,7 @@ const SignUp = () => {
       setSignUpError('do not have a capital letter');
       return;
     }
-    else if(!/^(?=.*[!@#$%^&*()_+[\]{};':"\\|,.<>/?]).{8,}$/.test(password)){
+    else if(!/^(?=.*[!@#$%^&*()_+[\]{};':"\\|,.<>/?])/.test(password)){
       setSignUpError('do not have a special character');
       return;
     }
@@ -38,6 +40,7 @@ const SignUp = () => {
       .then((result) => {
         console.log(result.user);
         e.target.reset();
+        setSuccess(swal("Good job!", "Login Successfully!", "success"));
         navigate("/");
       })
       .catch((error) => {
@@ -98,6 +101,9 @@ const SignUp = () => {
           
           signUpError && <p className="text-red-800">{signUpError}</p>
           
+          }
+           {
+            success && <p>{success}</p>
           }
           <p className="ml-4">
             Already Have An Account?

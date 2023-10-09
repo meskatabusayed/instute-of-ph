@@ -26,11 +26,14 @@ const Login = () => {
     signInUser(email , password)
     .then(result => {
       console.log(result.user)
+
       e.target.reset();
+      setSuccess(swal("Good job!", "Login Successfully!", "success"));
       navigate('/');
     })
     .catch(error => {
       console.log(error)
+      setLoginError(error.message);
     })
   }
 
